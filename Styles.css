@@ -1,0 +1,32 @@
+.pop-up {
+  background-color: rgb(210, 210, 210);
+
+  width: 500px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 5px;
+
+
+  /* para el pop up importante  */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 30%;
+  left: 30%;
+  opacity: 0;
+  z-index: -1;
+}
+.pop-up.open {
+  opacity: 1;
+  z-index: 999;
+}
+.chao {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
